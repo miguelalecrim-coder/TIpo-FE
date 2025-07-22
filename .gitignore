@@ -1,0 +1,44 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar arquivos de build
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Angular cache
+.angular/cache/
+
+# Coverage/test
+coverage/
+testem.log
+.jest/
+
+# Configurações específicas de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+
+# Lock do npm
+package-lock.json
+
+# VS Code - permitir apenas configs de projeto
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
